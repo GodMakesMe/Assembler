@@ -639,10 +639,10 @@ if __name__ == "__main__":
     #     asmbly = Assembler(a=1, textfiledir="")      # incase we want to have the GUI version
     # else:
     #     asmbly = Assembler(a=0, textfiledir=usrinput)
-    folderdirectory = os.path.realpath(__file__).split("\\")[:-1]
-    folderdirectory = "\\".join(folderdirectory)
-    asmbly = Assembler(a=1, textfiledir="",outputdir=folderdirectory+"bin.txt")      # incase we want to have the GUI version
-    # asmbly = Assembler(a=0, textfiledir=sys.argv[-2], outputdir=sys.argv[-1])
+    # folderdirectory = os.path.realpath(__file__).split("\\")[:-1]
+    # folderdirectory = "\\".join(folderdirectory)
+    # asmbly = Assembler(a=1, textfiledir="",outputdir=folderdirectory+"bin.txt")           #incase we want to have the GUI version
+    asmbly = Assembler(a=0, textfiledir=sys.argv[-2], outputdir=sys.argv[-1])
     if asmbly.a == 1:
         asmbly.root.mainloop()
     # testcasegenerator()
