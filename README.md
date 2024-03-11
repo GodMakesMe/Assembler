@@ -23,6 +23,12 @@ BEWARE: This may take some time to process as there are 3 lakh 45 thousand 83 te
 
 I am also providing the BONUSInstruction test cases as bonustestcases.txt separately, although it is there in the testcases.txt
 
+*****************UPDATE****************************
+I have removed the ZIP file
+Now only the py file is there
+so anyone want to use the automated version can not use that now
+Only GUI version for those who do not have the automated zip 
+
 For backup purposes, I am also providing the GUI version of the Py file separatory.
 Thanx
 All Collaborators:--
